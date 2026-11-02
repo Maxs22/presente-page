@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Presente</title>
+  <meta name="description" content="Presente avisa a tu familia cuando el celular de tu mamá o tu papá que vive solo deja de mostrar su actividad habitual. Sin pulseras ni botones: solo el teléfono que ya usa.">
+  <link rel="icon" href="assets/icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT@0,9..144,400..600,50;1,9..144,400..600,50&family=Public+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/site.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="./"><img src="assets/logo.svg" alt="" width="30" height="30">Presente</a>
+      <nav class="site-nav" aria-label="Secciones">
+        <a href="#como-funciona">Cómo funciona</a>
+        <a href="#que-no-es">Qué no es</a>
+        <a href="privacidad.html">Privacidad</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="wrap">
+        <p class="eyebrow reveal">Para familias con alguien que vive solo</p>
+        <h1 class="reveal d1">Saber que está bien, <em>sin llamar</em> todos los días.</h1>
+        <p class="lede reveal d2">Presente te avisa cuando el celular de tu mamá o tu papá deja de mostrar su actividad habitual. Sin pulseras, sin botones, sin central de alarmas: solo el teléfono que ya usa.</p>
+        <div class="cta-row reveal d3">
+          <a class="button" href="mailto:mrmendez@gmail.com?subject=Quiero%20probar%20Presente">Quiero probarla</a>
+          <span class="note">Estamos en prueba cerrada en Android, en Argentina.</span>
+        </div>
+
+        <figure class="day reveal d3" aria-label="Ejemplo de un día con actividad normal">
+          <div class="day-head">
+            <span class="day-name">Mamá</span>
+            <span class="day-status">Todo normal</span>
+          </div>
+          <div class="strip" aria-hidden="true">
+            <div class="strip-line"></div>
+            <div class="strip-window"></div>
+            <span class="tick" style="left: calc(1.6 / 24 * 100%); animation-delay: 0.5s"></span>
+            <span class="tick" style="left: calc(7.1 / 24 * 100%); animation-delay: 0.62s"></span>
+            <span class="tick" style="left: calc(7.4 / 24 * 100%); animation-delay: 0.7s"></span>
+            <span class="tick" style="left: calc(8.6 / 24 * 100%); animation-delay: 0.78s"></span>
+            <span class="tick" style="left: calc(9.9 / 24 * 100%); animation-delay: 0.86s"></span>
+            <div class="deadline"><span>11:00</span></div>
+            <div class="hours"><span>00</span><span>04</span><span>08</span><span>12</span><span>16</span><span>20</span><span>24</span></div>
+          </div>
+          <figcaption class="day-caption">Cada marca es una señal de vida: desbloqueó el teléfono, caminó, lo puso a cargar. Si a las 11:00 no hubo ninguna desde la mañana, Presente se pone en marcha.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section id="como-funciona">
+      <div class="wrap">
+        <h2 class="section-title">Funciona solo, desde el teléfono que ya tiene.</h2>
+        <p class="section-intro">Lo instalás una vez en el celular de tu familiar, con su ayuda. Después no tiene que hacer nada: usa el teléfono como siempre.</p>
+        <ol class="steps">
+          <li>
+            <h3>Instalás y vinculás</h3>
+            <p>Creás el círculo familiar con tu cuenta de Google y vinculás su teléfono con un código de 6 dígitos.</p>
+          </li>
+          <li>
+            <h3>El servidor vigila el silencio</h3>
+            <p>No depende de que el teléfono avise: si deja de reportar, porque se apagó o se quedó sin batería, también te enterás.</p>
+          </li>
+          <li>
+            <h3>Te avisa solo si hace falta</h3>
+            <p>Si no hay movimiento, primero le pregunta a él o a ella. Recién si no responde, avisa a la familia. El silencio significa que todo está bien.</p>
+          </li>
+        </ol>
+
+        <div class="ladder" aria-label="Qué pasa una mañana sin actividad">
+          <div class="rung ask"><time>11:00</time><div><strong>“¿Todo bien?”</strong><p>Sin actividad desde la mañana: le aparece una pregunta en su teléfono. Un toque y listo.</p></div></div>
+          <div class="rung"><time>11:30</time><div><strong>Aviso al primer familiar</strong><p>Si no respondió, le avisa a quien está primero en la lista.</p></div></div>
+          <div class="rung"><time>11:45</time><div><strong>Sigue con el próximo</strong><p>Cada 15 minutos avisa al siguiente, hasta que alguien toca “Me hago cargo”.</p></div></div>
+          <div class="rung"><time>Siempre</time><div><strong>“Necesito ayuda”</strong><p>Un botón grande en su teléfono avisa a toda la familia al mismo tiempo.</p></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="que-no-es">
+      <div class="wrap">
+        <h2 class="section-title">Lo que hace, y lo que no.</h2>
+        <div class="split">
+          <div class="panel">
+            <h3>Lo que hace</h3>
+            <ul>
+              <li>Te avisa cuando su celular deja de mostrar actividad habitual por la mañana.</li>
+              <li>Te avisa si el teléfono dejó de comunicarse, con la última señal y la batería.</li>
+              <li>Le da un botón de “Necesito ayuda” que llega a toda la familia.</li>
+              <li>Te muestra la actividad del día sin que tengas que preguntar.</li>
+            </ul>
+          </div>
+          <div class="panel honest">
+            <h3>Lo que no es</h3>
+            <ul>
+              <li><strong>No es un servicio de emergencias</strong> ni reemplaza llamar al 107 o al 911.</li>
+              <li>No lee mensajes, fotos, llamadas ni qué apps usa.</li>
+              <li>No usa la ubicación ni la cámara para vigilar.</li>
+              <li>No puede saber qué pasa si tu familiar no tiene el teléfono cerca.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="closing">
+      <div class="wrap">
+        <h2 class="section-title">¿Querés probarla con tu familia?</h2>
+        <p class="section-intro">Buscamos familias con un integrante mayor que vive solo y usa un celular Android. La prueba es gratis y nos ayuda a que Presente llegue a todos.</p>
+        <a class="button" href="mailto:mrmendez@gmail.com?subject=Quiero%20probar%20Presente">Quiero probarla</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <span>Presente · Hecho en Argentina</span>
+      <nav aria-label="Legal">
+        <a href="privacidad.html">Política de privacidad</a>
+        <a href="terminos.html">Términos y condiciones</a>
+        <a href="eliminar-cuenta.html">Eliminar cuenta y datos</a>
+        <a href="mailto:mrmendez@gmail.com">Contacto</a>
+      </nav>
+    </div>
+  </footer>
+</body>
+</html>
